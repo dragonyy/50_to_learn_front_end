@@ -16,4 +16,16 @@ body {
   background-color: #f4f4f4;
   /* 9 設定文字顏色 */
   color: #555555;
+
+  /* 10 改變字型 
+      10.01 sans-serif 是無襯線的
+  */
+  font-family: Arial, Helvetica, sans-serif;
+  /* 11 字型放大（縮小），16px 是預設值 */
+  font-size: 16px;
+  /* 12 粗體的話 bold可，400可；此處作者說維持預設為 normal */
+  font-weight: normal;
+  /* 13 上面三項可以全部在 font 一項中做完 */
+  /* Same as above <= 這是作者加上的註解 */
+  font: normal 16px Arial, Helvetica, sans-serif;
 }
