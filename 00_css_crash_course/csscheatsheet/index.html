@@ -11,13 +11,11 @@
   <!-- 03.01 現在的 Emmet 對 style tag 似乎沒有其他的屬性加成 -->
   <!-- 03.02 那個 type="text/css" 是我自己加上去的 -->
   <!-- 04 將 h1 的字弄成藍色的 -->
-  <style type="text/css">
-    /* 04 將 h1 的字弄成藍色的 */
-    /* 04.01 在<style> tag 中，註解也要按照 CSS 的規矩來，而在此處按下註解快速鍵 cmd + / 是會跑出 HTML 式的註解的 */
-    h1 {
-      color: blue;
-    }
-  </style>
+  <!-- 05 移除 <style> tag -->
+  <!-- 06 加上 <link> tag => rel, href 屬性會自動出來(指 Emmet)；但仍然沒有 text/css-->
+  <!-- 06.01 填上 href 屬性值 -->
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
