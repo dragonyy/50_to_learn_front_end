@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- 在第一行第一格按下一個 ! 再緊跟著一個 tab 符號即得到除了本註解以外的所有 HTML -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Cheat Sheet</title>
-    <!-- 03 加上 <style> tag -->
-    <!-- 03.01 現在的 Emmet 對 style tag 似乎沒有其他的屬性加成 -->
-    <style></style>
-  </head>
-  <body>
-    <!-- 01 以下鍵入 h1<tab> -->
-    <!-- 02 inline CSS 就不試了 -->
-    <h1>Hello World</h1>
-  </body>
+
+<head>
+  <!-- 在第一行第一格按下一個 ! 再緊跟著一個 tab 符號即得到除了本註解以外的所有 HTML -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Cheat Sheet</title>
+  <!-- 03 加上 <style> tag -->
+  <!-- 03.01 現在的 Emmet 對 style tag 似乎沒有其他的屬性加成 -->
+  <!-- 03.02 那個 type="text/css" 是我自己加上去的 -->
+  <!-- 04 將 h1 的字弄成藍色的 -->
+  <style type="text/css">
+    /* 04 將 h1 的字弄成藍色的 */
+    /* 04.01 在<style> tag 中，註解也要按照 CSS 的規矩來，而在此處按下註解快速鍵 cmd + / 是會跑出 HTML 式的註解的 */
+    h1 {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 01 以下鍵入 h1<tab> -->
+  <!-- 02 inline CSS 就不試了 -->
+  <h1>Hello World</h1>
+</body>
+
 </html>
